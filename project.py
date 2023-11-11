@@ -23,6 +23,14 @@ def clear_field():
     calculation = ""
     text_result.delete(1.0, "end")
 
+def percent():
+    global calculation
+    result=eval(calculation) / 100
+    calculation = str(result)
+    text_result.delete(1.0,"end")
+    text_result.insert(1.0,calculation)
+   
+
 
 root = tk.Tk()
 root.geometry("300x275")
@@ -62,7 +70,7 @@ btn_open = tk.Button(root, text="(", command=lambda: add_to_calculation("("), wi
 btn_open.grid(row=5, column=1)
 btn_close = tk.Button(root, text=")", command=lambda: add_to_calculation(")"), width=5, font=("Lora", 14), fg = "#fff", bg = "#2a2d36")
 btn_close.grid(row=5, column=3)
-btn_mod = tk.Button(root, text="%", command=lambda: add_to_calculation("/100"), width=5, font=("Lora", 14), fg = "#fff", bg = "#2a2d36")
+btn_mod = tk.Button(root, text="%", command= percent, width=5, font=("Lora", 14), fg = "#fff", bg = "#2a2d36")
 btn_mod.grid(row=6, column=2)
 btn_dot = tk.Button(root, text=".", command=lambda: add_to_calculation("."), width=5, font=("Lora", 14), fg = "#fff", bg = "#2a2d36")
 btn_dot.grid(row=6, column=3)
