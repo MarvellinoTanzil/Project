@@ -1,27 +1,42 @@
-# Project
-This is a basic calculator program developed in Python using the Tkinter library. The calculator provides a graphical user interface for performing arithmetic calculations. It supports addition, subtraction, multiplication, division, percentage calculations, and more.
+#Calculator App
+This is a simple calculator application built using Python and the Tkinter library.
 
-Getting Started
-To run the calculator, make sure you have Python installed on your system. Copy and paste the provided code into a Python script (e.g., calculator.py) and execute it.python calculator.py.The calculator window will appear, allowing you to perform calculations through a user-friendly interface.
+#How to Download
+To download the calculator application, follow these steps:
 
-Features
-Addition (+), subtraction (-), multiplication (*), and division (/) operations.
-Percentage calculation with the "%"" button.
-Support for parentheses to handle complex expressions.
-Decimal point (.) for floating-point numbers.
-Clear button (C) to reset the input field.
-Error handling for invalid expressions.
+Clone the Repository:
+git clone <repository_url>
+
+Navigate to the Project Directory:
+cd calculator-app
+
+#How to Use
+To use the calculator application, follow these steps:
+
+#Run the Application:
+python calculator.py
+This command will launch the Tkinter-based calculator GUI.
+
+#Perform Calculations:
+
+Use the number buttons (0-9) to input numbers.
+Use the operation buttons (+, -, *, /) to perform calculations.
+Use the parentheses buttons to input parentheses.
+Use the % button to calculate percentages.
+Use the = button to evaluate the entered expression.
+Use the C button to clear the input field.
+Error Handling:
+
+If an error occurs during the calculation, an "Error" message will be displayed.
+Exit the Application:
+
+Close the Tkinter window to exit the calculator application.
 Dependencies
-This program uses the Tkinter library, which is included with most standard Python installations. No additional dependencies are required.
+Python 3.x
+Tkinter
+Note
+This calculator is a basic implementation and may not cover all edge cases. Use it for simple arithmetic calculations.
 
-Usage
-Enter numerical values using the number buttons (0-9).
-Perform basic arithmetic operations using the respective buttons.
-Use parentheses for grouping in expressions.
-Click the "=" button to evaluate the entered expression.
-The "C" button clears the input field, and the "%" button calculates percentages.
-Decimal point (.) facilitates input of floating-point numbers.
-Notes
-Avoid division by zero, as the program does not handle division by zero errors.
-If an error occurs during evaluation, "Error" will be displayed in the result field.
-Feel free to modify the code to suit your needs or contribute to its improvement. If you encounter any issues or have suggestions, please let us know. Happy calculating!
+Feel free to modify and enhance the code according to your needs.
+
+Happy calculating!
