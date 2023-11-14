@@ -5,7 +5,7 @@ This is a simple calculator application built using Python and the Tkinter libra
 To download the calculator application, follow these steps:
 
 Clone the Repository:
-git clone <repository_url>
+git clone <https://github.com/MarvellinoTanzil/Project/blob/main/README.md>
 
 Navigate to the Project Directory:
 cd calculator-app
