@@ -13,11 +13,11 @@ cd calculator-app
 # How to Use
 To use the calculator application, follow these steps:
 
-# Run the Application:
+Run the Application:
 python calculator.py
 This command will launch the Tkinter-based calculator GUI.
 
-# Perform Calculations:
+Perform Calculations:
 
 Use the number buttons (0-9) to input numbers.
 Use the operation buttons (+, -, *, /) to perform calculations.
